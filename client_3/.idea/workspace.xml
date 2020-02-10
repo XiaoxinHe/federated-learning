@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidGradleBuildConfiguration">
+    <option name="SYNC_PROJECT_BEFORE_BUILD" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="efe07970-a19d-4f77-9e26-1fc35c01ea3c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XMCqOVDTUTYaF86iXVQpgt4SjY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.27625" />
+    <property name="project.structure.side.proportion" value="0.5968858" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RunManager" selected="Application.FileClient">
+    <configuration name="FileClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FileClient" />
+      <module name="client_3.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fileClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fileClient" />
+      <module name="client_3.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="utils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utils" />
+      <module name="client_3.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="client_3 [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" singleton="false" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildOnly" value="true" />
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.fileClient" />
+      <item itemvalue="Application.utils" />
+      <item itemvalue="Docker.Dockerfile" />
+      <item itemvalue="Gradle.client_3 [dependencies]" />
+      <item itemvalue="Application.FileClient" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FileClient" />
+        <item itemvalue="Application.fileClient" />
+        <item itemvalue="Docker.Dockerfile" />
+        <item itemvalue="Gradle.client_3 [dependencies]" />
+        <item itemvalue="Application.utils" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="efe07970-a19d-4f77-9e26-1fc35c01ea3c" name="Default Changelist" comment="" />
+      <created>1580846766414</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580846766414</updated>
+      <workItem from="1580846770278" duration="29833000" />
+      <workItem from="1581075086171" duration="1665000" />
+      <workItem from="1581079526911" duration="16222000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="115" key="#Docker" timestamp="1581076085663">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#Docker/0.0.1440.900/-567.-1440.2560.1440@0.0.1440.900" timestamp="1581076085663" />
+    <state x="320" y="115" width="800" height="717" key="#Intentions" timestamp="1580978398487">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" width="800" height="717" key="#Intentions/0.0.1440.900/-567.-1440.2560.1440@0.0.1440.900" timestamp="1580978398487" />
+    <state x="320" y="115" key="#Project_Structure" timestamp="1581079834818">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#Project_Structure/0.0.1440.900/-567.-1440.2560.1440@0.0.1440.900" timestamp="1581079834818" />
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581080143527">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/-567.-1440.2560.1440@0.0.1440.900" timestamp="1581080143527" />
+    <state x="533" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1580902224718">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-567.-1440.2560.1440@0.0.1440.900" timestamp="1580902224718" />
+    <state width="1398" height="252" key="GridCell.Tab.0.bottom" timestamp="1581346620231">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="252" key="GridCell.Tab.0.bottom/0.0.1440.900/-567.-1417.2560.1417@0.0.1440.900" timestamp="1580978872889" />
+    <state width="1398" height="252" key="GridCell.Tab.0.bottom/0.0.1440.900/-567.-1440.2560.1440@0.0.1440.900" timestamp="1581346620231" />
+    <state width="1398" height="252" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580913294244" />
+    <state width="1398" height="252" key="GridCell.Tab.0.center" timestamp="1581346620229">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="252" key="GridCell.Tab.0.center/0.0.1440.900/-567.-1417.2560.1417@0.0.1440.900" timestamp="1580978872887" />
+    <state width="1398" height="252" key="GridCell.Tab.0.center/0.0.1440.900/-567.-1440.2560.1440@0.0.1440.900" timestamp="1581346620229" />
+    <state width="1398" height="252" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580913294242" />
+    <state width="1398" height="252" key="GridCell.Tab.0.left" timestamp="1581346620228">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="252" key="GridCell.Tab.0.left/0.0.1440.900/-567.-1417.2560.1417@0.0.1440.900" timestamp="1580978872885" />
+    <state width="1398" height="252" key="GridCell.Tab.0.left/0.0.1440.900/-567.-1440.2560.1440@0.0.1440.900" timestamp="1581346620228" />
+    <state width="1398" height="252" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580913294241" />
+    <state width="1398" height="252" key="GridCell.Tab.0.right" timestamp="1581346620230">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="252" key="GridCell.Tab.0.right/0.0.1440.900/-567.-1417.2560.1417@0.0.1440.900" timestamp="1580978872888" />
+    <state width="1398" height="252" key="GridCell.Tab.0.right/0.0.1440.900/-567.-1440.2560.1440@0.0.1440.900" timestamp="1581346620230" />
+    <state width="1398" height="252" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580913294243" />
+    <state x="208" y="31" key="SettingsEditor" timestamp="1581079830461">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="208" y="31" key="SettingsEditor/0.0.1440.900/-567.-1440.2560.1440@0.0.1440.900" timestamp="1581079830461" />
+    <state x="458" y="210" key="extract.method.dialog" timestamp="1580902208293">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="210" key="extract.method.dialog/0.0.1440.900/-567.-1440.2560.1440@0.0.1440.900" timestamp="1580902208293" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1580910125199">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-567.-1440.2560.1440@0.0.1440.900" timestamp="1580910125199" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1580847469386" />
+  </component>
+</project>
