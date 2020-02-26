@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidGradleBuildConfiguration">
+    <option name="SYNC_PROJECT_BEFORE_BUILD" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ee135956-7f55-402e-bff7-f5f3f2231467" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="server_3" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XHpuVVIEUwKd9REVUKT5qGiDMP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.5968858" />
+    <property name="settings.editor.selected.configurable" value="Docker" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.experiment_1">
+    <configuration name="FileServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="server.FileServer" />
+      <module name="server_3.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="baseline_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="13" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="server.baseline_2" />
+      <module name="server_3.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="baselinemodel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="13" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="baselinemodel" />
+      <module name="server_3.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="experiment_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="server.experiment_1" />
+      <module name="server_3.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="server_3 [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--scan" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.server_3 [jar]" />
+      <item itemvalue="Application.FileServer (1)" />
+      <item itemvalue="Application.baselinemodel" />
+      <item itemvalue="Application.baseline_2" />
+      <item itemvalue="Application.experiment_1" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.experiment_1" />
+        <item itemvalue="Application.baseline_2" />
+        <item itemvalue="Application.baselinemodel" />
+        <item itemvalue="Gradle.server_3 [jar]" />
+        <item itemvalue="Application.FileServer (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ee135956-7f55-402e-bff7-f5f3f2231467" name="Default Changelist" comment="" />
+      <created>1580713096118</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580713096118</updated>
+      <workItem from="1580713100893" duration="45806000" />
+      <workItem from="1581067074920" duration="1968000" />
+      <workItem from="1581079505902" duration="32881000" />
+      <workItem from="1581929492917" duration="1385000" />
+      <workItem from="1581936825818" duration="32753000" />
+      <workItem from="1582101050822" duration="66726000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="415" y="3" key="#Dockerfile" timestamp="1581425574240">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="415" y="3" key="#Dockerfile/0.0.1440.900/-567.-1440.2560.1440@0.0.1440.900" timestamp="1581425574240" />
+    <state x="523" y="127" key="#FileServer" timestamp="1582101167844">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="523" y="127" key="#FileServer/0.0.1440.900/-567.-1440.2560.1440@0.0.1440.900" timestamp="1582101167844" />
+    <state x="523" y="127" key="#FileServer/0.0.1440.900@0.0.1440.900" timestamp="1581416439494" />
+    <state x="320" y="115" key="#Inspections" timestamp="1580714344158">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#Inspections/0.0.1440.900/-583.-1440.2560.1440@0.0.1440.900" timestamp="1580714344158" />
+    <state x="319" y="115" key="#Path_mapping" timestamp="1581425532565">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="319" y="115" key="#Path_mapping/0.0.1440.900/-567.-1440.2560.1440@0.0.1440.900" timestamp="1581425532565" />
+    <state x="320" y="115" key="#Project_Structure" timestamp="1580713156691">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#Project_Structure/0.0.1440.900/-583.-1440.2560.1440@0.0.1440.900" timestamp="1580713156691" />
+    <state x="320" y="115" key="#Pull_Image" timestamp="1581067405061">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#Pull_Image/0.0.1440.900/-567.-1440.2560.1440@0.0.1440.900" timestamp="1581067405061" />
+    <state x="396" y="127" key="#baseline_2" timestamp="1582551084883">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="396" y="127" key="#baseline_2/0.0.1440.900@0.0.1440.900" timestamp="1582551084883" />
+    <state x="396" y="127" key="#baselinemodel" timestamp="1582191182434">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="396" y="127" key="#baselinemodel/0.0.1440.900@0.0.1440.900" timestamp="1582191182434" />
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581429408848">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/-567.-1440.2560.1440@0.0.1440.900" timestamp="1581429408848" />
+    <state x="533" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1582620489405">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-276.-1080.1920.1080@0.0.1440.900" timestamp="1582620489405" />
+    <state x="533" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-567.-1440.2560.1440@0.0.1440.900" timestamp="1580981363107" />
+    <state x="533" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1581976621634" />
+    <state x="486" y="316" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582191112485">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="486" y="316" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900@0.0.1440.900" timestamp="1582191112485" />
+    <state width="1398" height="179" key="GridCell.Tab.0.bottom" timestamp="1582702970041">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="179" key="GridCell.Tab.0.bottom/0.0.1440.900/-276.-1080.1920.1080@0.0.1440.900" timestamp="1582702970041" />
+    <state width="2518" height="779" key="GridCell.Tab.0.bottom/0.0.1440.900/-567.-1440.2560.1440@-567.-1440.2560.1440" timestamp="1581338911956" />
+    <state width="1398" height="258" key="GridCell.Tab.0.bottom/0.0.1440.900/-567.-1440.2560.1440@0.0.1440.900" timestamp="1582614492977" />
+    <state width="1440" height="252" key="GridCell.Tab.0.bottom/0.0.1440.900/-583.-1417.2560.1417@0.0.1440.900" timestamp="1580716391121" />
+    <state width="1440" height="252" key="GridCell.Tab.0.bottom/0.0.1440.900/-583.-1440.2560.1440@0.0.1440.900" timestamp="1580799873489" />
+    <state width="1398" height="133" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582666489024" />
+    <state width="1398" height="179" key="GridCell.Tab.0.center" timestamp="1582702970040">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="179" key="GridCell.Tab.0.center/0.0.1440.900/-276.-1080.1920.1080@0.0.1440.900" timestamp="1582702970040" />
+    <state width="2518" height="779" key="GridCell.Tab.0.center/0.0.1440.900/-567.-1440.2560.1440@-567.-1440.2560.1440" timestamp="1581338911954" />
+    <state width="1398" height="258" key="GridCell.Tab.0.center/0.0.1440.900/-567.-1440.2560.1440@0.0.1440.900" timestamp="1582614492975" />
+    <state width="1440" height="252" key="GridCell.Tab.0.center/0.0.1440.900/-583.-1417.2560.1417@0.0.1440.900" timestamp="1580716391120" />
+    <state width="1440" height="252" key="GridCell.Tab.0.center/0.0.1440.900/-583.-1440.2560.1440@0.0.1440.900" timestamp="1580799873488" />
+    <state width="1398" height="133" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582666489023" />
+    <state width="1398" height="179" key="GridCell.Tab.0.left" timestamp="1582702970038">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="179" key="GridCell.Tab.0.left/0.0.1440.900/-276.-1080.1920.1080@0.0.1440.900" timestamp="1582702970038" />
+    <state width="2518" height="779" key="GridCell.Tab.0.left/0.0.1440.900/-567.-1440.2560.1440@-567.-1440.2560.1440" timestamp="1581338911953" />
+    <state width="1398" height="258" key="GridCell.Tab.0.left/0.0.1440.900/-567.-1440.2560.1440@0.0.1440.900" timestamp="1582614492974" />
+    <state width="1440" height="252" key="GridCell.Tab.0.left/0.0.1440.900/-583.-1417.2560.1417@0.0.1440.900" timestamp="1580716391119" />
+    <state width="1440" height="252" key="GridCell.Tab.0.left/0.0.1440.900/-583.-1440.2560.1440@0.0.1440.900" timestamp="1580799873487" />
+    <state width="1398" height="133" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582666489022" />
+    <state width="1398" height="179" key="GridCell.Tab.0.right" timestamp="1582702970040">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="179" key="GridCell.Tab.0.right/0.0.1440.900/-276.-1080.1920.1080@0.0.1440.900" timestamp="1582702970040" />
+    <state width="2518" height="779" key="GridCell.Tab.0.right/0.0.1440.900/-567.-1440.2560.1440@-567.-1440.2560.1440" timestamp="1581338911955" />
+    <state width="1398" height="258" key="GridCell.Tab.0.right/0.0.1440.900/-567.-1440.2560.1440@0.0.1440.900" timestamp="1582614492976" />
+    <state width="1440" height="252" key="GridCell.Tab.0.right/0.0.1440.900/-583.-1417.2560.1417@0.0.1440.900" timestamp="1580716391120" />
+    <state width="1440" height="252" key="GridCell.Tab.0.right/0.0.1440.900/-583.-1440.2560.1440@0.0.1440.900" timestamp="1580799873488" />
+    <state width="1398" height="133" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582666489023" />
+    <state x="221" y="63" key="SettingsEditor" timestamp="1581425549072">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="63" key="SettingsEditor/0.0.1440.900/-567.-1417.2560.1417@0.0.1440.900" timestamp="1581425463725" />
+    <state x="221" y="63" key="SettingsEditor/0.0.1440.900/-567.-1440.2560.1440@0.0.1440.900" timestamp="1581425549072" />
+    <state x="503" y="235" key="chooseDestDirectoryDialog" timestamp="1582189040077">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="503" y="235" key="chooseDestDirectoryDialog/0.0.1440.900/-583.-1440.2560.1440@0.0.1440.900" timestamp="1580714347545" />
+    <state x="503" y="235" key="chooseDestDirectoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1582189040077" />
+    <state x="397" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1582101050337">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="397" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-567.-1440.2560.1440@0.0.1440.900" timestamp="1582101050337" />
+    <state x="424" y="350" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1580713153520">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="424" y="350" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1440.900/-583.-1440.2560.1440@0.0.1440.900" timestamp="1580713153520" />
+    <state x="97" y="64" key="new project wizard" timestamp="1580846766316">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="97" y="64" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1580846766316" />
+    <state x="385" y="210" key="run.anything.popup" timestamp="1581067384096">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="210" key="run.anything.popup/0.0.1440.900/-567.-1440.2560.1440@0.0.1440.900" timestamp="1581067384096" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1581067386428">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-567.-1440.2560.1440@0.0.1440.900" timestamp="1581067386428" />
+  </component>
+</project>

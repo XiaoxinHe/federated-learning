@@ -1,0 +1,140 @@
+{
+  "backpropType" : "Standard",
+  "cacheMode" : "NONE",
+  "confs" : [ {
+    "cacheMode" : "NONE",
+    "dataType" : "FLOAT",
+    "epochCount" : 0,
+    "iterationCount" : 0,
+    "layer" : {
+      "@class" : "org.deeplearning4j.nn.conf.layers.DenseLayer",
+      "activationFn" : {
+        "@class" : "org.nd4j.linalg.activations.impl.ActivationReLU"
+      },
+      "biasInit" : 0.0,
+      "biasUpdater" : null,
+      "constraints" : null,
+      "gainInit" : 1.0,
+      "gradientNormalization" : "None",
+      "gradientNormalizationThreshold" : 1.0,
+      "hasBias" : true,
+      "hasLayerNorm" : false,
+      "idropout" : null,
+      "iupdater" : {
+        "@class" : "org.nd4j.linalg.learning.config.Nesterovs",
+        "learningRate" : 0.001,
+        "momentum" : 0.9
+      },
+      "layerName" : "layer0",
+      "nin" : 45,
+      "nout" : 1000,
+      "regularization" : [ ],
+      "regularizationBias" : [ ],
+      "weightInitFn" : {
+        "@class" : "org.deeplearning4j.nn.weights.WeightInitXavier"
+      },
+      "weightNoise" : null
+    },
+    "maxNumLineSearchIterations" : 5,
+    "miniBatch" : true,
+    "minimize" : true,
+    "optimizationAlgo" : "STOCHASTIC_GRADIENT_DESCENT",
+    "seed" : 100,
+    "stepFunction" : null,
+    "variables" : [ "W", "b" ]
+  }, {
+    "cacheMode" : "NONE",
+    "dataType" : "FLOAT",
+    "epochCount" : 0,
+    "iterationCount" : 0,
+    "layer" : {
+      "@class" : "org.deeplearning4j.nn.conf.layers.DenseLayer",
+      "activationFn" : {
+        "@class" : "org.nd4j.linalg.activations.impl.ActivationReLU"
+      },
+      "biasInit" : 0.0,
+      "biasUpdater" : null,
+      "constraints" : null,
+      "gainInit" : 1.0,
+      "gradientNormalization" : "None",
+      "gradientNormalizationThreshold" : 1.0,
+      "hasBias" : true,
+      "hasLayerNorm" : false,
+      "idropout" : null,
+      "iupdater" : {
+        "@class" : "org.nd4j.linalg.learning.config.Nesterovs",
+        "learningRate" : 0.001,
+        "momentum" : 0.9
+      },
+      "layerName" : "layer1",
+      "nin" : 1000,
+      "nout" : 1000,
+      "regularization" : [ ],
+      "regularizationBias" : [ ],
+      "weightInitFn" : {
+        "@class" : "org.deeplearning4j.nn.weights.WeightInitXavier"
+      },
+      "weightNoise" : null
+    },
+    "maxNumLineSearchIterations" : 5,
+    "miniBatch" : true,
+    "minimize" : true,
+    "optimizationAlgo" : "STOCHASTIC_GRADIENT_DESCENT",
+    "seed" : 100,
+    "stepFunction" : null,
+    "variables" : [ "W", "b" ]
+  }, {
+    "cacheMode" : "NONE",
+    "dataType" : "FLOAT",
+    "epochCount" : 0,
+    "iterationCount" : 0,
+    "layer" : {
+      "@class" : "org.deeplearning4j.nn.conf.layers.OutputLayer",
+      "activationFn" : {
+        "@class" : "org.nd4j.linalg.activations.impl.ActivationSoftmax"
+      },
+      "biasInit" : 0.0,
+      "biasUpdater" : null,
+      "constraints" : null,
+      "gainInit" : 1.0,
+      "gradientNormalization" : "None",
+      "gradientNormalizationThreshold" : 1.0,
+      "hasBias" : true,
+      "idropout" : null,
+      "iupdater" : {
+        "@class" : "org.nd4j.linalg.learning.config.Nesterovs",
+        "learningRate" : 0.001,
+        "momentum" : 0.9
+      },
+      "layerName" : "layer2",
+      "lossFn" : {
+        "@class" : "org.nd4j.linalg.lossfunctions.impl.LossNegativeLogLikelihood",
+        "softmaxClipEps" : 1.0E-10
+      },
+      "nin" : 1000,
+      "nout" : 10,
+      "regularization" : [ ],
+      "regularizationBias" : [ ],
+      "weightInitFn" : {
+        "@class" : "org.deeplearning4j.nn.weights.WeightInitXavier"
+      },
+      "weightNoise" : null
+    },
+    "maxNumLineSearchIterations" : 5,
+    "miniBatch" : true,
+    "minimize" : true,
+    "optimizationAlgo" : "STOCHASTIC_GRADIENT_DESCENT",
+    "seed" : 100,
+    "stepFunction" : null,
+    "variables" : [ "W", "b" ]
+  } ],
+  "dataType" : "FLOAT",
+  "epochCount" : 0,
+  "inferenceWorkspaceMode" : "ENABLED",
+  "inputPreProcessors" : { },
+  "iterationCount" : 0,
+  "tbpttBackLength" : 20,
+  "tbpttFwdLength" : 20,
+  "trainingWorkspaceMode" : "ENABLED",
+  "validateOutputLayerConfig" : true
+}

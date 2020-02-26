@@ -1,0 +1,1229 @@
+
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.2105
+ Precision:       0.4498	(4 classes excluded from average)
+ Recall:          0.2092
+ F1 Score:        0.1563	(4 classes excluded from average)
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+Warning: 4 classes were never predicted by the model and were excluded from average precision
+Classes excluded from average precision: [1, 4, 6, 9]
+
+=========================Confusion Matrix=========================
+     0     1     2     3     4     5     6     7     8     9
+-------------------------------------------------------------
+ 10097     0     0     0     0     0     0     0     0     0 | 0 = 0
+ 10183     0     0     0     0     1     0     0     0     0 | 1 = 1
+  7217     0   204     1     0  2416     0     0    65     0 | 2 = 2
+ 10019     0     0     0     0     7     0     0     0     0 | 3 = 3
+  9885     0     3     1     0   128     0     0     0     0 | 4 = 4
+     1     0     0     0     0 10039     0     0     0     0 | 5 = 5
+  5746     0     0     0     0  4219     0     0     5     0 | 6 = 6
+     6     0     0     0     0  9932     0     1    25     0 | 7 = 7
+  6957     0   301     0     0  1981     0     0   711     0 | 8 = 8
+  9411     0    11     1     0   360     0     0    66     0 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.2839
+ Precision:       0.4769	(3 classes excluded from average)
+ Recall:          0.2843
+ F1 Score:        0.2904	(3 classes excluded from average)
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+Warning: 3 classes were never predicted by the model and were excluded from average precision
+Classes excluded from average precision: [0, 1, 6]
+
+=========================Confusion Matrix=========================
+    0    1    2    3    4    5    6    7    8    9
+---------------------------------------------------
+    0    0    1 4673    0    0    0    0 2574 2849 | 0 = 0
+    0    0    0 6445    0    0    0    0 1376 2363 | 1 = 1
+    0    0 1208 2288    0   90    0    0 5985  332 | 2 = 2
+    0    0 1173 8668    0    0    0    0   98   87 | 3 = 3
+    0    0 1469 8104   59    0    0    0  378    7 | 4 = 4
+    0    0    0   87    0 7613    0  251 2089    0 | 5 = 5
+    0    0    0 9539    0    0    0   29  399    3 | 6 = 6
+    0    0    0  113    0 7462    0 1878  509    2 | 7 = 7
+    0    0   77  267    1   19    0    0 6723 2863 | 8 = 8
+    0    0  122 3316    0    6    0    0 4159 2246 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.3989
+ Precision:       0.4168	(2 classes excluded from average)
+ Recall:          0.3996
+ F1 Score:        0.4146	(2 classes excluded from average)
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+Warning: 2 classes were never predicted by the model and were excluded from average precision
+Classes excluded from average precision: [1, 6]
+
+=========================Confusion Matrix=========================
+     0     1     2     3     4     5     6     7     8     9
+-------------------------------------------------------------
+   393     0   509  3312    14     0     0     2   222  5645 | 0 = 0
+   288     0  1360  3394   415     0     0    46     6  4675 | 1 = 1
+   231     0  4243   153   117   434     0     0  3942   783 | 2 = 2
+    10     0   833  7732   202     0     0     2   354   893 | 3 = 3
+    17     0  1519  1452  6531     0     0     3   394   101 | 4 = 4
+     0     0     0     0     0 10012     0    18     8     2 | 5 = 5
+     0     0    52  2253   153    96     0  7044   145   227 | 6 = 6
+     0     0     0     0     0  8629     0  1118   214     3 | 7 = 7
+    61     0   361   129     8    36     0     0  4656  4699 | 8 = 8
+    55     0  1616  1257    48    36     0    10  1623  5204 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.4966
+ Precision:       0.4999
+ Recall:          0.4971
+ F1 Score:        0.4786
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+
+=========================Confusion Matrix=========================
+    0    1    2    3    4    5    6    7    8    9
+---------------------------------------------------
+  234 4306  851 2055   73    0   17    1  515 2045 | 0 = 0
+  568 2674  916 3048 1116    0    0    4  321 1537 | 1 = 1
+    9 1277 4399   54   88   16  113    0 3898   49 | 2 = 2
+    2 1214 1386 7253   17    0    3    1  107   43 | 3 = 3
+    0 1146  760  577 7245    0   21    0  255   13 | 4 = 4
+    0    0    0    2    2 4892  660 4169  315    0 | 5 = 5
+    0    0   42  761  247    0 7450 1200  262    8 | 6 = 6
+    0    0    0    0    0 1251  481 8026  205    1 | 7 = 7
+   88  984  489   71    9    0   10    0 5669 2630 | 8 = 8
+   29 1516 2470 1410  103    0   96   16 2390 1819 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.2170
+ Precision:       0.3401	(1 class excluded from average)
+ Recall:          0.2170
+ F1 Score:        0.1541	(1 class excluded from average)
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [2]
+
+=========================Confusion Matrix=========================
+    0    1    2    3    4    5    6    7    8    9
+---------------------------------------------------
+    0 3745    0 4751    0    0    1    0  631  969 | 0 = 0
+    0 1864    0 7591    0    0    0    0  345  384 | 1 = 1
+    0 3033    0 1333    2    0   21    0 5471   43 | 2 = 2
+    0  194    0 8660    1    0    1    0 1163    7 | 3 = 3
+    0  742    0 6984  674    0    3    0 1599   15 | 4 = 4
+    0    0    0  234    0   11 5245    0 4550    0 | 5 = 5
+    0    0    0 6334    0    0 3319    0  314    3 | 6 = 6
+    0    0    0  408    0  936 6131   33 2454    2 | 7 = 7
+    0 1208    0  729    0    0    0    0 6176 1837 | 8 = 8
+    1 1165    0 3741    0    0   18    0 3959  965 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.2770
+ Precision:       0.5262
+ Recall:          0.2758
+ F1 Score:        0.1925
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+
+=========================Confusion Matrix=========================
+    0    1    2    3    4    5    6    7    8    9
+---------------------------------------------------
+    3 9615    0    0    0    0  472    0    6    1 | 0 = 0
+    1 9996    0    0    0    0  186    0    0    1 | 1 = 1
+   21 5394  641    1    2    8 1913    0 1921    2 | 2 = 2
+    3 8520 1206   18    0    0  272    0    4    3 | 3 = 3
+    1 7275  998    0 1008    0  651    0   83    1 | 4 = 4
+    0    0    0    0    0 1034 9002    0    4    0 | 5 = 5
+    0    2    0    0    0    0 9967    0    0    1 | 6 = 6
+    0    0    0    0    0  734 8504  673   53    0 | 7 = 7
+  105 4975   51    0    2    0  729    1 3872  215 | 8 = 8
+   19 7446  243    6    0    0  704    1  942  488 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.2928
+ Precision:       0.5079	(3 classes excluded from average)
+ Recall:          0.2926
+ F1 Score:        0.2480	(3 classes excluded from average)
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+Warning: 3 classes were never predicted by the model and were excluded from average precision
+Classes excluded from average precision: [1, 2, 7]
+
+=========================Confusion Matrix=========================
+    0    1    2    3    4    5    6    7    8    9
+---------------------------------------------------
+ 1343    0    0 4711    0    0    0    0 4042    1 | 0 = 0
+  740    0    0 7335    0    0    0    0 2107    2 | 1 = 1
+  806    0    0 2395    0    7    0    0 6695    0 | 2 = 2
+   18    0    0 9886    0    0    0    0  120    2 | 3 = 3
+  192    0    0 8100    9    0    0    0 1716    0 | 4 = 4
+    0    0    0   59    0 8101    0    0 1880    0 | 5 = 5
+    0    0    0 8479    0    0  708    0  783    0 | 6 = 6
+    0    0    0  164    0 8086  174    0 1540    0 | 7 = 7
+  440    0    0  240    0    0    0    0 9160  110 | 8 = 8
+  201    0    0 3624    0    1    0    0 5945   78 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.4564
+ Precision:       0.6375	(1 class excluded from average)
+ Recall:          0.4560
+ F1 Score:        0.4422	(1 class excluded from average)
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+     0     1     2     3     4     5     6     7     8     9
+-------------------------------------------------------------
+  8716     0     0   147     3     3    23     0    10  1195 | 0 = 0
+  8274     0     0   439    43     0    11     0     0  1417 | 1 = 1
+  4657     0   120   248   108   547   123     0  3390   710 | 2 = 2
+  4962     0    26  4408   250     4     7     0     5   364 | 3 = 3
+  3731     0     3   355  5825     1    16     0    27    59 | 4 = 4
+     0     0     0     0     0 10004    31     0     3     2 | 5 = 5
+   405     0     0   109    76   308  8821     0    25   226 | 6 = 6
+     0     0     0     0     0  8760  1036     4   160     4 | 7 = 7
+  2811     0     1    16     9    47    26     0  4254  2786 | 8 = 8
+  4297     0    18   615    40    62    85     0  1242  3490 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.4581
+ Precision:       0.5562	(1 class excluded from average)
+ Recall:          0.4583
+ F1 Score:        0.3950	(1 class excluded from average)
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [0]
+
+=========================Confusion Matrix=========================
+    0    1    2    3    4    5    6    7    8    9
+---------------------------------------------------
+    0  885    0 3776 1063    0   39    0  985 3349 | 0 = 0
+    0  269    0 3604 2920    0    0    0  583 2808 | 1 = 1
+    0 1913    2  965 1423  302  103    0 4215  980 | 2 = 2
+    0  187    0 8898  745    0    2    0   39  155 | 3 = 3
+    0  185    0  183 9602    0    2    0   21   24 | 4 = 4
+    0    0    0    0    3 9641  384    0   11    1 | 5 = 5
+    0    0    0  392 1541    0 7785    0  145  107 | 6 = 6
+    0    0    0    0   11 8252 1517    1  179    4 | 7 = 7
+    0  141    0   98  154    6   15    0 5739 3797 | 8 = 8
+    0  324    0 2545  507   22   72    0 2511 3868 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.4220
+ Precision:       0.5878	(1 class excluded from average)
+ Recall:          0.4226
+ F1 Score:        0.4001	(1 class excluded from average)
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [0]
+
+=========================Confusion Matrix=========================
+    0    1    2    3    4    5    6    7    8    9
+---------------------------------------------------
+    0 4559    0   29  351    0   94    0    0 5064 | 0 = 0
+    0 4074    0   17 1156    0   19    0    0 4918 | 1 = 1
+    0 2873  715   24  548  226  517    0 2481 2519 | 2 = 2
+    0 3162  495 2151  779    0   39    0    0 3400 | 3 = 3
+    0 1815   13    9 8095    0   14    0    0   71 | 4 = 4
+    0    0    0    0    2 5423 4582    0    2   31 | 5 = 5
+    0    0    0    0   48    0 9627    0    3  292 | 6 = 6
+    0    0    0    0    3 5620 4087  136   96   22 | 7 = 7
+    0  273    5    0   68    3  149    0 3972 5480 | 8 = 8
+    0 1157   31   47  143    4  140    0  324 8003 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.3939
+ Precision:       0.6094
+ Recall:          0.3928
+ F1 Score:        0.3305
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+
+=========================Confusion Matrix=========================
+     0     1     2     3     4     5     6     7     8     9
+-------------------------------------------------------------
+ 10055     0     0    16     1    10     8     0     7     0 | 0 = 0
+  9975    28     0   141    25    15     0     0     0     0 | 1 = 1
+  5524   195   135   155   165  1096    12     0  2620     1 | 2 = 2
+  6890   104    16  2693   304    12     2     0     4     1 | 3 = 3
+  4095    16     3   190  5694     7     2     0    10     0 | 4 = 4
+     0     0     0     0     0 10039     1     0     0     0 | 5 = 5
+  1497     0     0    90    89  1724  6435     0   135     0 | 6 = 6
+     0     0     0     0     0  9742    98     3   121     0 | 7 = 7
+  5455    14     1     2    12   191    12     0  4194    69 | 8 = 8
+  7325     9    35   583    41   195    36     0  1511   114 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.4787
+ Precision:       0.6388	(1 class excluded from average)
+ Recall:          0.4779
+ F1 Score:        0.4792	(1 class excluded from average)
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [0]
+
+=========================Confusion Matrix=========================
+    0    1    2    3    4    5    6    7    8    9
+---------------------------------------------------
+    0 8337  118 1120    0    0   57    1  464    0 | 0 = 0
+    0 8198    5 1775    0    0   17    5  184    0 | 1 = 1
+    0 4106 2276  335    4  118   68    0 2996    0 | 2 = 2
+    0 2627 1084 6291    0    0   10    3   11    0 | 3 = 3
+    0 4741  933 2200 2048    0   56    0   39    0 | 4 = 4
+    0    0    0    4    0 5496 2501 1977   62    0 | 5 = 5
+    0    2    1   89    0    0 9632    2  244    0 | 6 = 6
+    0    0    0    1    0 1790  616 7435  122    0 | 7 = 7
+    0 3246  136   68    4    1   31    0 6460    4 | 8 = 8
+    0 3908  729 1878    2    2  169   24 3101   36 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.4775
+ Precision:       0.6124	(1 class excluded from average)
+ Recall:          0.4786
+ F1 Score:        0.4507	(1 class excluded from average)
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [0]
+
+=========================Confusion Matrix=========================
+    0    1    2    3    4    5    6    7    8    9
+---------------------------------------------------
+    0 2177 1104 5705    0    0   39    6 1066    0 | 0 = 0
+    0 1656  327 7637    0    0   18   31  515    0 | 1 = 1
+    0 1593 6934  285    0   41   29   12 1009    0 | 2 = 2
+    0  286 1352 8346    0    0   11   26    5    0 | 3 = 3
+    0 1340 2316 5573  666    0   76   33   13    0 | 4 = 4
+    0    0   15    2    0 3445 1645 4861   72    0 | 5 = 5
+    0    0   15   56    0    0 9671   19  209    0 | 6 = 6
+    0    0    0    0    0   73  156 9657   78    0 | 7 = 7
+    0  814 1327  365    0    1   73    5 7344   21 | 8 = 8
+    0  550 3400 3262    0    0  183  143 2277   34 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.5550
+ Precision:       0.6507
+ Recall:          0.5559
+ F1 Score:        0.5332
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+
+=========================Confusion Matrix=========================
+    0    1    2    3    4    5    6    7    8    9
+---------------------------------------------------
+   15 6062  124   37  477    0  235  108    7 3032 | 0 = 0
+    1 5289   54   29 1590    0  159  116   35 2911 | 1 = 1
+    0 2598 5732    7  153  194  201    5  539  474 | 2 = 2
+    0 4123 1486 3276   68    0  231   43    2  797 | 3 = 3
+    0 1193  325    5 8422    0   35   12    0   25 | 4 = 4
+    0    0    2    0    0 4065 2720 3248    2    3 | 5 = 5
+    0    0    0    0   12    0 9773    4    0  181 | 6 = 6
+    0    0    0    0    0  185  297 9425   56    1 | 7 = 7
+   11  619  630    1   36   10  328    2 4011 4302 | 8 = 8
+    1 1774 1576  141  138    1  337   30  361 5490 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.6121
+ Precision:       0.6377
+ Recall:          0.6135
+ F1 Score:        0.5950
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+
+=========================Confusion Matrix=========================
+    0    1    2    3    4    5    6    7    8    9
+---------------------------------------------------
+ 4734  402  746  348  944    0    6   22    6 2889 | 0 = 0
+ 2053  460  733  426 3099    0    1   51    0 3361 | 1 = 1
+  226  456 8162   15   85  157    4    0  357  441 | 2 = 2
+  807  421 1797 5925   54    0    8   18    2  994 | 3 = 3
+    6  194 1093   23 8625    0    3   10    0   63 | 4 = 4
+    0    0    9    0    3 5451  158 4412    2    5 | 5 = 5
+    0    0   25    1  354    0 9237  126    7  220 | 6 = 6
+    0    0    0    0    0  639   13 9248   62    2 | 7 = 7
+  522    5 1074    1   18    4   25    1 4078 4222 | 8 = 8
+  602  119 2871  400  169    4   55   19  319 5291 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.6051
+ Precision:       0.6389
+ Recall:          0.6060
+ F1 Score:        0.5915
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+
+=========================Confusion Matrix=========================
+    0    1    2    3    4    5    6    7    8    9
+---------------------------------------------------
+ 1421 4178  606 1527  366    0   12   17   62 1908 | 0 = 0
+  678 3505  224 2407 1552    0    3   56  127 1632 | 1 = 1
+    7 1411 7640   47   71  126    2   16  431  152 | 2 = 2
+   13  893 1439 7457    9    0    7   27    3  178 | 3 = 3
+    0  604  882  244 8242    0    3   27    1   14 | 4 = 4
+    0    0    8    0    3 4868   19 5132    8    2 | 5 = 5
+    0    0   13   13  209    0 9096  414   72  153 | 6 = 6
+    0    0    0    0    0  176    3 9737   48    0 | 7 = 7
+  309  504  989   11   14    2   18    2 4758 3343 | 8 = 8
+  142  867 2957 1259   88    4   53   54  639 3786 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.5802
+ Precision:       0.6730
+ Recall:          0.5808
+ F1 Score:        0.5512
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+
+=========================Confusion Matrix=========================
+    0    1    2    3    4    5    6    7    8    9
+---------------------------------------------------
+ 7937  172   12    0  314    0   15    1    0 1646 | 0 = 0
+ 5169  682   15    5 2234    0    4    9    0 2066 | 1 = 1
+ 1219 1030 5425    2  334  364   12    0   48 1469 | 2 = 2
+ 4683  984 1306 1155  250    0   19    0    0 1629 | 3 = 3
+  153  302  123    1 9376    0    2    0    0   60 | 4 = 4
+    0    0    1    0    2 9393  145  492    0    7 | 5 = 5
+    8    0    0    0  421    0 9292    8    0  241 | 6 = 6
+    0    0    0    0    0 4887   23 5015   12   27 | 7 = 7
+ 1849   12  533    0   79   71   81    0 3378 3947 | 8 = 8
+ 2130  222  708   14  254   21   43    3   92 6362 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.3891
+ Precision:       0.6333
+ Recall:          0.3880
+ F1 Score:        0.3309
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+
+=========================Confusion Matrix=========================
+     0     1     2     3     4     5     6     7     8     9
+-------------------------------------------------------------
+    11  9664    13     0     0     0   402     0     0     7 | 0 = 0
+     0 10045     1     0     0     0   137     0     0     1 | 1 = 1
+    11  4862  3790     4    11   469   526     0   225     5 | 2 = 2
+     3  8419  1274   104     1     0   222     0     0     3 | 3 = 3
+     0  6281   839     1  2482     0   413     0     0     1 | 4 = 4
+     0     0     0     0     0  7205  2835     0     0     0 | 5 = 5
+     0     2     0     0     0     0  9967     0     0     1 | 6 = 6
+     0     0     0     0     0  7593  1654   664    53     0 | 7 = 7
+   125  4905   278     0     3    75   784     1  3527   252 | 8 = 8
+    12  6801   795    15     1    20   787     0   302  1116 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.5699
+ Precision:       0.6867
+ Recall:          0.5702
+ F1 Score:        0.5442
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+
+=========================Confusion Matrix=========================
+    0    1    2    3    4    5    6    7    8    9
+---------------------------------------------------
+ 6856 1375  919    0   24    0  158   16    0  749 | 0 = 0
+ 3050 4473 1050    0  441    0  242   32    0  896 | 1 = 1
+  109 1117 8490    0    0   72    7    9    1   98 | 2 = 2
+ 2260 3986 2627  477    1    0  337   18    0  320 | 3 = 3
+   32 1771 1942    2 6199    0   45   25    0    1 | 4 = 4
+    0    0   16    0    0 6069  596 3356    0    3 | 5 = 5
+    0    0   21    0    1    0 9870    7    0   71 | 6 = 6
+    0    0    1    0    0  853   34 9072    2    2 | 7 = 7
+ 1740  368 2514    0    8   41  286    7 2522 2464 | 8 = 8
+ 1194  739 4660    5    8    2  213   29   33 2966 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.4300
+ Precision:       0.6659	(1 class excluded from average)
+ Recall:          0.4319
+ F1 Score:        0.4151	(1 class excluded from average)
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [0]
+
+=========================Confusion Matrix=========================
+    0    1    2    3    4    5    6    7    8    9
+---------------------------------------------------
+    0    1    0    0 1356    0    0    0    0 8740 | 0 = 0
+    0    0    0    0 2394    0    0    0    0 7790 | 1 = 1
+    0    0 1061    0 1107  271    9    0   17 7438 | 2 = 2
+    0    0   36    1 1154    0    0    0    0 8835 | 3 = 3
+    0    0    1    0 9453    0    0    0    0  563 | 4 = 4
+    0    0    0    0   24 4618  338 4038    0 1022 | 5 = 5
+    0    0    0    0 1916    0 6307    0    0 1747 | 6 = 6
+    0    0    0    0   69  448   11 9300    0  136 | 7 = 7
+    0    0  218    0  407   37   56    5 2565 6662 | 8 = 8
+    0    0    8    0  124    1   10    0   11 9695 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.6032
+ Precision:       0.6704
+ Recall:          0.6028
+ F1 Score:        0.6025
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+
+=========================Confusion Matrix=========================
+    0    1    2    3    4    5    6    7    8    9
+---------------------------------------------------
+ 4227 4272    7   70  799    0  142    2   31  547 | 0 = 0
+ 1360 6075    0   80 2408    0   51    8    9  193 | 1 = 1
+  372 2927 3606   30 1101  413  123   12  466  853 | 2 = 2
+  338 4494  449 3504  932    0  164    9    3  133 | 3 = 3
+    1  799    7    4 9177    0    9   16    0    4 | 4 = 4
+    0    0    0    0    3 8425  477 1134    0    1 | 5 = 5
+    0    0    0    0   38    0 9925    4    1    2 | 6 = 6
+    0    0    0    0    2 2755   65 7128   14    0 | 7 = 7
+ 1085 2019  183    4  187   50  338    2 4487 1595 | 8 = 8
+ 1012 2370  391  523  473   33  402   34  846 3765 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.5791
+ Precision:       0.5976
+ Recall:          0.5805
+ F1 Score:        0.5133
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+
+=========================Confusion Matrix=========================
+    0    1    2    3    4    5    6    7    8    9
+---------------------------------------------------
+  106    0  135 5973  109    0   34    3 3462  275 | 0 = 0
+    5    0   21 7450  863    0    3   10 1749   83 | 1 = 1
+   68   22 6566  988  309   25   11    4 1691  219 | 2 = 2
+    0    0 1269 8692   18    0    8    3   12   24 | 3 = 3
+    0    3  134  813 9021    0    3   18   16    9 | 4 = 4
+    0    0    1    4    3 3840  244 5474  473    1 | 5 = 5
+    0    0    0   25   29    0 9660   17  239    0 | 6 = 6
+    0    0    0    0    0   30    1 9881   52    0 | 7 = 7
+    6    0  271  302   27    0   11    1 8809  523 | 8 = 8
+    9    1 1067 3538   92    1   83   74 3650 1334 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.4878
+ Precision:       0.6980	(1 class excluded from average)
+ Recall:          0.4872
+ F1 Score:        0.4890	(1 class excluded from average)
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+     0     1     2     3     4     5     6     7     8     9
+-------------------------------------------------------------
+ 10028     0     0    25     1     0     0     0    43     0 | 0 = 0
+  9514     0     4   571    73     1     0     0    17     4 | 1 = 1
+  4096     0  2993    96    45   316     0     0  2324    33 | 2 = 2
+  4970     0  1117  3911     6     0     2     0    13     7 | 3 = 3
+  2814     0   246   255  6680     0     0     0    21     1 | 4 = 4
+     0     0     0     0     0 10030     1     0     9     0 | 5 = 5
+   878     0     0    83    48   491  8217     0   253     0 | 6 = 6
+     0     0     0     0     0  9436    11   385   132     0 | 7 = 7
+  3846     0    71     3     4     2     1     0  5848   175 | 8 = 8
+  5354     0   496   681    32    34    22     1  2538   691 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.5692
+ Precision:       0.6428	(1 class excluded from average)
+ Recall:          0.5712
+ F1 Score:        0.5819	(1 class excluded from average)
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [0]
+
+=========================Confusion Matrix=========================
+    0    1    2    3    4    5    6    7    8    9
+---------------------------------------------------
+    0   95 5452  607 1005    0    0    0    1 2937 | 0 = 0
+    0   98 3069  797 2832    0    0   12   68 3308 | 1 = 1
+    0  112 9313    3   48    3    0    0   18  406 | 2 = 2
+    0  250 2031 6591   18    0    2    4    0 1130 | 3 = 3
+    0   42 1266   13 8630    0    0    0    0   66 | 4 = 4
+    0    0  113    0    3 4479    9 5414    6   16 | 5 = 5
+    0    0   56    1  721    0 8626  304   16  246 | 6 = 6
+    0    0    2    0    0   41    0 9895   17    9 | 7 = 7
+    0    2 1812    1    7    0    5    1 3981 4141 | 8 = 8
+    0   20 3788  438  114    0   11   13  157 5308 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.5616
+ Precision:       0.6606
+ Recall:          0.5632
+ F1 Score:        0.5373
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+
+=========================Confusion Matrix=========================
+    0    1    2    3    4    5    6    7    8    9
+---------------------------------------------------
+ 2017  110    0  622 1511    0    1    0    1 5835 | 0 = 0
+  583   91    0  449 3397    0    0    0   34 5630 | 1 = 1
+   40  107 2076   38  990  195    0    0 1347 5110 | 2 = 2
+   17   67  569 4941  704    0    1    0    2 3725 | 3 = 3
+    0   39   12   12 9738    0    0    0    0  216 | 4 = 4
+    0    0    0    0    4 6998   18 2964    1   55 | 5 = 5
+    0    0    0    2 1658    0 7904    7    6  393 | 6 = 6
+    0    0    0    0    6  921    0 8990   18   29 | 7 = 7
+   86    0   22    3   52    2    4    0 4389 5392 | 8 = 8
+   22   13   58  237  232    2    8    5  257 9015 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.6434
+ Precision:       0.6968
+ Recall:          0.6434
+ F1 Score:        0.6287
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+
+=========================Confusion Matrix=========================
+    0    1    2    3    4    5    6    7    8    9
+---------------------------------------------------
+ 6389 1712  221 1609   26    0   43    3   75   19 | 0 = 0
+ 2465 4161   24 3140  272    0    9   10   99    4 | 1 = 1
+  176 1880 7414   99   52   73    6   11  180   12 | 2 = 2
+  121 1467 1320 7082    3    0   16    6    5    6 | 3 = 3
+    7 1689  269  719 7304    0    7   20    1    1 | 4 = 4
+    0    0    2    0    0 5567   47 4418    6    0 | 5 = 5
+    3    0    1    8    8    0 9736   17  197    0 | 6 = 6
+    0    0    0    0    0  253    2 9693   16    0 | 7 = 7
+ 1761 1067  719   31    8    1   30    5 6129  199 | 8 = 8
+ 1343 1225 2255 2101   35    4  130  114 1773  869 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.5167
+ Precision:       0.7077
+ Recall:          0.5160
+ F1 Score:        0.4935
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+
+=========================Confusion Matrix=========================
+    0    1    2    3    4    5    6    7    8    9
+---------------------------------------------------
+ 1037 8242   78    0    3    0  408    0   23  306 | 0 = 0
+  398 9448    3    1   66    0  182    0   15   71 | 1 = 1
+   36 3611 5370    3   95  254  135    0  114  285 | 2 = 2
+   61 7841 1303  405   10    0  349    0    3   54 | 3 = 3
+    0 3975  112    0 5839    0   85    1    0    5 | 4 = 4
+    0    0    0    0    0 9388  647    4    0    1 | 5 = 5
+    0    1    0    0    0    0 9968    0    0    1 | 6 = 6
+    0    0    0    0    0 6656  434 2853   20    1 | 7 = 7
+  313 3254  513    0   11   17  442    1 4350 1049 | 8 = 8
+  219 4272 1055   23   27   19  642    3  581 3008 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.4687
+ Precision:       0.6796	(1 class excluded from average)
+ Recall:          0.4690
+ F1 Score:        0.4665	(1 class excluded from average)
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+    0    1    2    3    4    5    6    7    8    9
+---------------------------------------------------
+ 1050    0    0 6785    3    0    0    0 2052  207 | 0 = 0
+  221    0    0 8746   11    0    0    0 1143   63 | 1 = 1
+  263    0  222 3834   80   84    2    0 4282 1136 | 2 = 2
+    0    0   12 9874   45    0    0    0   23   72 | 3 = 3
+    1    0    3 5337 4588    0    0    0   54   34 | 4 = 4
+    0    0    0   22    0 9942    4   17   54    1 | 5 = 5
+    0    0    0 2677    7    0 6983    1  280   22 | 6 = 6
+    0    0    0   37    0 5782    1 4004  139    1 | 7 = 7
+  235    0    0  498    5    0    0    0 8458  754 | 8 = 8
+  109    0   15 4306   10    4    7    1 3644 1753 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.6168
+ Precision:       0.6813
+ Recall:          0.6180
+ F1 Score:        0.5741
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+
+=========================Confusion Matrix=========================
+    0    1    2    3    4    5    6    7    8    9
+---------------------------------------------------
+ 8045   10  390    0  479    0   81   62    3 1027 | 0 = 0
+ 4599  324  747    4 2537    0   41   61    0 1871 | 1 = 1
+  335  134 8576    0   70  107    0    8   17  656 | 2 = 2
+ 3559  534 2060 1095  164    0   94   22    0 2498 | 3 = 3
+   43  232  309    0 9306    0    6   13    0  108 | 4 = 4
+    0    0    4    0    1 5726   10 4295    0    4 | 5 = 5
+    0    0    7    0   19    0 9744   39    0  161 | 6 = 6
+    0    0    1    0    0  235    0 9725    3    0 | 7 = 7
+ 1628    2 1141    0   14   11   81   12 3929 3132 | 8 = 8
+ 1469   32 2671    6  119    5   89   61  188 5209 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.5878
+ Precision:       0.7058
+ Recall:          0.5870
+ F1 Score:        0.5649
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+
+=========================Confusion Matrix=========================
+     0     1     2     3     4     5     6     7     8     9
+-------------------------------------------------------------
+  9473   362    43    17     4     3   157     0    14    24 | 0 = 0
+  5399  4193    30   109   163     2   230     2    14    42 | 1 = 1
+   808  1732  6280     9    21   422    45     0   567    19 | 2 = 2
+  2564  3504  1212  2482     5     2   218     1     2    36 | 3 = 3
+   241  2424   372    41  6869     0    59     4     6     1 | 4 = 4
+     0     0     0     0     0 10017    20     2     1     0 | 5 = 5
+     2     0     0     0     0     0  9840     0   128     0 | 6 = 6
+     0     0     0     0     0  7408    60  2458    38     0 | 7 = 7
+  2989   555   388     3     4    33   100     1  5599   278 | 8 = 8
+  3214  1156  1712   338    25    56   348    16  1418  1566 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.5255
+ Precision:       0.6186	(1 class excluded from average)
+ Recall:          0.5262
+ F1 Score:        0.4886	(1 class excluded from average)
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [0]
+
+=========================Confusion Matrix=========================
+     0     1     2     3     4     5     6     7     8     9
+-------------------------------------------------------------
+     0    84     0  5621   136     1    16     0  3089  1150 | 0 = 0
+     0   162     1  6673  1016     1     2     0  1642   687 | 1 = 1
+     0   649  1513  1143   477   514    11     0  2861  2735 | 2 = 2
+     0    42    41  9103   116     1     2     0    14   707 | 3 = 3
+     0   186    15   548  9158     0     1     0    31    78 | 4 = 4
+     0     0     0     0     0 10035     1     0     2     2 | 5 = 5
+     0     0     0    25    40   297  9322     0   231    55 | 6 = 6
+     0     0     0     0     0  9270    18   594    76     6 | 7 = 7
+     0     2     5   167    21    11     4     0  8241  1499 | 8 = 8
+     0    19    56  2577    89    46    21     0  2617  4424 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.6302
+ Precision:       0.6936
+ Recall:          0.6300
+ F1 Score:        0.6022
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+
+=========================Confusion Matrix=========================
+    0    1    2    3    4    5    6    7    8    9
+---------------------------------------------------
+  503 5753  289 1274   58    0  234    0 1844  142 | 0 = 0
+  176 7354   85 1299  383    0  116    4  739   28 | 1 = 1
+    6 1867 6814   23   57  212   17    1  886   20 | 2 = 2
+    2 3038 1248 5605    8    0   94    2    6   23 | 3 = 3
+    0 2139  195  123 7518    0   21    0   21    0 | 4 = 4
+    0    0    2    0    0 9755   70  208    5    0 | 5 = 5
+    0    0    1    1    5    0 9759    1  203    0 | 6 = 6
+    0    0    0    0    0 3222   32 6667   43    0 | 7 = 7
+  117 1475  391   37    7    2   48    0 7720  153 | 8 = 8
+  107 2028 2070 1349   52   13  263   21 2621 1325 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.5919
+ Precision:       0.7005
+ Recall:          0.5918
+ F1 Score:        0.5656
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+
+=========================Confusion Matrix=========================
+     0     1     2     3     4     5     6     7     8     9
+-------------------------------------------------------------
+  7496   730     1     9   262     2    81     0    26  1490 | 0 = 0
+  3092  4045     2    16  1576     1    58     0     3  1391 | 1 = 1
+   632  1684  3676     7   511   506    43     0   567  2277 | 2 = 2
+  2143  3532   634  2183   352     1   104     0     2  1075 | 3 = 3
+    31   749    24     0  9164     0    11     0     0    38 | 4 = 4
+     0     0     0     0     0 10016    18     1     0     5 | 5 = 5
+     2     0     0     0    20     0  9767     0     0   181 | 6 = 6
+     0     0     0     0     0  8139    90  1704    13    18 | 7 = 7
+  1212   363    57     2    64    39   113     0  4401  3699 | 8 = 8
+  1343   777   207    79   193    38   123     3   345  6741 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.5722
+ Precision:       0.6488
+ Recall:          0.5724
+ F1 Score:        0.5237
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+
+=========================Confusion Matrix=========================
+     0     1     2     3     4     5     6     7     8     9
+-------------------------------------------------------------
+  6220   147     1   382  1696    14    42     0   282  1313 | 0 = 0
+  2227  1033     0  1261  4204     7     2     0   421  1029 | 1 = 1
+   519   853  2578   116  2036   957     4     0   812  2028 | 2 = 2
+   646   865   135  6336  1096     6    30     0     4   908 | 3 = 3
+     2    34     3     4  9958     1     0     0     6     9 | 4 = 4
+     0     0     0     0     0 10039     1     0     0     0 | 5 = 5
+     0     0     0     2   487   455  8816     0   183    27 | 6 = 6
+     0     0     0     0     8  9558    11   354    23    10 | 7 = 7
+  1016   104    35    17   191   125    53     0  6418  1991 | 8 = 8
+  1026   241   149   881   772   110    78     3  1119  5470 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.5841
+ Precision:       0.7057
+ Recall:          0.5843
+ F1 Score:        0.5550
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+
+=========================Confusion Matrix=========================
+     0     1     2     3     4     5     6     7     8     9
+-------------------------------------------------------------
+  7077   414     0    36   396     2    29     0    31  2112 | 0 = 0
+  3040  2610     0    33  1863     1     8     0     9  2620 | 1 = 1
+   507  1081  3069    40   566   542     8     0   636  3454 | 2 = 2
+  1630  1865   327  3221   310     0    33     0     1  2639 | 3 = 3
+    25   524    17     0  9366     0     2     0     0    83 | 4 = 4
+     0     0     0     0     0 10034     2     0     0     4 | 5 = 5
+     1     0     0     0    40    71  9615     0     6   237 | 6 = 6
+     0     0     0     0     2  8790    38  1091    17    26 | 7 = 7
+   799    59    42     4    42    44    38     0  4477  4445 | 8 = 8
+   864   350   129    93   160    43    33     2   328  7847 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.6485
+ Precision:       0.6970
+ Recall:          0.6493
+ F1 Score:        0.6064
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+
+=========================Confusion Matrix=========================
+    0    1    2    3    4    5    6    7    8    9
+---------------------------------------------------
+ 3241  285  287 3347  154    0    5    0 2770    8 | 0 = 0
+  824 1411  122 4991 1310    0    6    5 1515    0 | 1 = 1
+  157  700 7948  174   60   66    0    0  795    3 | 2 = 2
+  103  845  612 8418    6    0   20    8   10    4 | 3 = 3
+    4  340  482  296 8861    0    3    0   31    0 | 4 = 4
+    0    0    3    1    2 6592   12 3402   28    0 | 5 = 5
+    1    0    4    8   39    0 9667    7  244    0 | 6 = 6
+    0    0    0    0    0  416    0 9513   35    0 | 7 = 7
+  536  157  402   83    9    0    4    1 8747   11 | 8 = 8
+  509  281 2057 2724  122    5   73   53 3570  455 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.6474
+ Precision:       0.6754
+ Recall:          0.6481
+ F1 Score:        0.6250
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+
+=========================Confusion Matrix=========================
+    0    1    2    3    4    5    6    7    8    9
+---------------------------------------------------
+ 1270 4055  436 1638  452    0  152    7 1189  898 | 0 = 0
+  314 5106  180 1796 1750    0   72   14  609  343 | 1 = 1
+    8 1335 8232   46   71   43    3    7  113   45 | 2 = 2
+    8 2090  999 6745   15    0   92   11    3   63 | 3 = 3
+    0  472  698   80 8737    0    7   14    8    1 | 4 = 4
+    0    0    6    0    2 5081   67 4876    0    8 | 5 = 5
+    0    0    1    3   18    0 9753   10  181    4 | 6 = 6
+    0    0    0    0    0   59    0 9901    2    2 | 7 = 7
+  177  975  842   38   19    1   71    4 6956  867 | 8 = 8
+  192 1159 2467 1385  142    0  165   48 1328 2963 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.5886
+ Precision:       0.7347
+ Recall:          0.5884
+ F1 Score:        0.5761
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+
+=========================Confusion Matrix=========================
+    0    1    2    3    4    5    6    7    8    9
+---------------------------------------------------
+ 4112 4596  872   11    4    0  220    1   17  264 | 0 = 0
+ 1089 8265  551    7   50    0  129    4   11   78 | 1 = 1
+   33 1266 8546    6    0   18   10    7   10    7 | 2 = 2
+  436 6005 1509 1853    1    0  188    2    0   32 | 3 = 3
+    6 3276 1690   14 4965    0   55   10    0    1 | 4 = 4
+    0    0   28    0    0 4945  419 4642    0    6 | 5 = 5
+    0    0    5    0    0    0 9959    3    1    2 | 6 = 6
+    0    0    0    0    0   72    8 9880    2    2 | 7 = 7
+  684 2479 1582    1    1    3  251   10 4350  589 | 8 = 8
+  671 2179 4223  129    0    0  293   41  330 1983 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.5426
+ Precision:       0.7331
+ Recall:          0.5416
+ F1 Score:        0.5433
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+
+=========================Confusion Matrix=========================
+    0    1    2    3    4    5    6    7    8    9
+---------------------------------------------------
+ 4193 5350    1    0    1    0  322    0    3  227 | 0 = 0
+  961 9010    1    1    1    0  186    0    0   24 | 1 = 1
+  390 3856 4359   67   26  373  286    0  276  270 | 2 = 2
+  844 6972  164 1688    2    0  324    0    1   31 | 3 = 3
+   28 4660  248   13 4767    0  299    0    0    2 | 4 = 4
+    0    0    0    0    0 9407  625    5    0    3 | 5 = 5
+    0    1    0    0    0    0 9968    0    0    1 | 6 = 6
+    0    0    0    0    0 5722  404 3822    6   10 | 7 = 7
+ 1114 3329  182    2    2   34  594    1 4148  544 | 8 = 8
+ 1179 4094  428  110    7   20  698    4  407 2902 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.6864
+ Precision:       0.7455	(1 class excluded from average)
+ Recall:          0.6876
+ F1 Score:        0.7305	(1 class excluded from average)
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+    0    1    2    3    4    5    6    7    8    9
+---------------------------------------------------
+ 7973    0   65  183  327    0    0    1   15 1533 | 0 = 0
+ 4012    0  194  909 2851    0    2    8    4 2204 | 1 = 1
+  584    0 7826   64  281  146    0    2   86  914 | 2 = 2
+ 1500    0  478 6253   70    0   14    7    0 1704 | 3 = 3
+   45    0  367   32 9543    0    1    9    0   20 | 4 = 4
+    0    0    2    0    2 7115    8 2895    0   18 | 5 = 5
+    2    0    1    2   92    0 9602   22    4  245 | 6 = 6
+    0    0    0    0    0  529    0 9425    2    8 | 7 = 7
+ 1266    0  496   14   27    9   21    4 4280 3833 | 8 = 8
+ 1304    0  975  513  181    6   16   16  220 6618 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.6134
+ Precision:       0.6563
+ Recall:          0.6149
+ F1 Score:        0.5776
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+
+=========================Confusion Matrix=========================
+    0    1    2    3    4    5    6    7    8    9
+---------------------------------------------------
+ 2553   43 3302 2345   59    0   89   24  865  817 | 0 = 0
+  491  382 3349 3634  809    0   88   59  803  569 | 1 = 1
+   28   96 9604   22    0   12    9   16   99   17 | 2 = 2
+   71  406 1385 7818    1    0   82   37    2  224 | 3 = 3
+    1   28 2105  311 7536    0   14   20    1    1 | 4 = 4
+    0    0   36    0    0 4348   24 5624    1    7 | 5 = 5
+    0    0   18    0    3    0 9703   51  188    7 | 6 = 6
+    0    0    0    0    0    4    0 9956    4    0 | 7 = 7
+  442   76 1400   48    0    0   38    7 6893 1046 | 8 = 8
+  215   40 4504 1300   10    0  111   70 1056 2543 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.5444
+ Precision:       0.7149
+ Recall:          0.5428
+ F1 Score:        0.5135
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+
+=========================Confusion Matrix=========================
+    0    1    2    3    4    5    6    7    8    9
+---------------------------------------------------
+ 4733 4564    0  335    1    0  229    0  227    8 | 0 = 0
+  936 8444    1  437    0    0  134    0  232    0 | 1 = 1
+  441 3578 1695  633   11  274  145    0 3097   29 | 2 = 2
+  242 4366    0 5265    1    0  141    1    7    3 | 3 = 3
+   38 4177   60  679 4695    0  184    0  184    0 | 4 = 4
+    0    0    0    0    0 9865  168    0    7    0 | 5 = 5
+    1    0    0    0    0    0 9806    0  163    0 | 6 = 6
+    0    0    0    0    0 7199  282 2404   79    0 | 7 = 7
+  688 2215   30   18    0    3   93    0 6881   22 | 8 = 8
+ 1029 2960  148 1400    3   21  444    1 3190  653 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.5079
+ Precision:       0.7132
+ Recall:          0.5088
+ F1 Score:        0.4616
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+
+=========================Confusion Matrix=========================
+    0    1    2    3    4    5    6    7    8    9
+---------------------------------------------------
+ 2488  871    0   64 1490    0   16    0    0 5168 | 0 = 0
+  558 1269    0   20 3560    0    1    0    0 4776 | 1 = 1
+   51  545  361   50  835  426   53    0  761 6821 | 2 = 2
+   47 1156    0 2472  166    0   20    0    0 6165 | 3 = 3
+    1   23    7    4 9904    0    5    0    0   73 | 4 = 4
+    0    0    0    0    2 9914   73    0    0   51 | 5 = 5
+    0    0    0    0   42    0 9651    0    0  277 | 6 = 6
+    0    0    0    0    4 7903  226 1737    6   88 | 7 = 7
+  104   34    1    0   39   14   70    0 3710 5978 | 8 = 8
+   59  173    2   34  208    2   15    0   74 9282 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.6943
+ Precision:       0.7104
+ Recall:          0.6945
+ F1 Score:        0.6837
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+
+=========================Confusion Matrix=========================
+    0    1    2    3    4    5    6    7    8    9
+---------------------------------------------------
+ 6966  386    9  484 1381    1   44    0   79  747 | 0 = 0
+ 2139 2337    7 1237 3981    0    3    0  128  352 | 1 = 1
+  441  759 5499  135 1272  367   20    1  594  815 | 2 = 2
+  553 1082  126 7496  535    0   51    2    1  180 | 3 = 3
+    4   36   27    8 9932    0    0    3    4    3 | 4 = 4
+    0    0    0    0    4 9876   28  122    0   10 | 5 = 5
+    0    0    0    1  254    0 9598    0   91   26 | 6 = 6
+    0    0    0    0    1 3058   12 6865    6   22 | 7 = 7
+ 1468  629  239   22  136   12   93    1 6241 1109 | 8 = 8
+ 1358  450  577 1085  694   18  125    4  922 4616 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.7075
+ Precision:       0.6961
+ Recall:          0.7084
+ F1 Score:        0.6824
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+
+=========================Confusion Matrix=========================
+    0    1    2    3    4    5    6    7    8    9
+---------------------------------------------------
+ 5355   89  106 1776  895    0   37    0  795 1044 | 0 = 0
+ 1437  877   80 2994 3291    0    2    1  852  650 | 1 = 1
+  272  283 6857  186  517  280    8    1  930  569 | 2 = 2
+  268  541   60 8491  108    0   24    4    5  525 | 3 = 3
+    3   52   45   37 9855    0    0    1   15    9 | 4 = 4
+    0    0    0    0    2 9284   13  732    0    9 | 5 = 5
+    0    0    0    2  141    0 9602    2  198   25 | 6 = 6
+    0    0    0    0    0 1617    3 8318   14   12 | 7 = 7
+  812  103  306   29   34    4   23    1 7590 1048 | 8 = 8
+  719   91  953 1569  273   16   66    8 1637 4517 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+========================Evaluation Metrics========================
+ # of classes:    10
+ Accuracy:        0.6151
+ Precision:       0.7534
+ Recall:          0.6151
+ F1 Score:        0.6066
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+
+
+=========================Confusion Matrix=========================
+    0    1    2    3    4    5    6    7    8    9
+---------------------------------------------------
+  796 8153    9   13   32    0  199    0   23  872 | 0 = 0
+  164 9366    8   15  327    0   75    1   66  162 | 1 = 1
+   28 2578 4798   25  127  225  122    3   40 1957 | 2 = 2
+   34 6781  401 2075    9    0  183    0    1  542 | 3 = 3
+    0 1827   76    3 8059    0   39    5    0    8 | 4 = 4
+    0    0    0    0    0 7172  448 2393    0   27 | 5 = 5
+    0    0    0    0    5    0 9942    0    0   23 | 6 = 6
+    0    0    0    0    0  509   37 9381    2   35 | 7 = 7
+  189 2982  352    2   15   18  300    3 4158 1931 | 8 = 8
+  124 2996  372   52   52    4  244    5  235 5765 | 9 = 9
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
