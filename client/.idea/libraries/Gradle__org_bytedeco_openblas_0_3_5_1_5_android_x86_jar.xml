@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: org.bytedeco:openblas:0.3.5-1.5:android-x86@jar">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bytedeco/openblas/0.3.5-1.5/cb0be0ebc2dcbb8aa90f3af1c9d860ecd0209639/openblas-0.3.5-1.5-android-x86.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
